@@ -1,0 +1,12 @@
+exporter: 
+  listen: ":9808"
+  yarn: 
+    endpoint:
+      scheme: "http://"
+      host: "xxx.xxx.com"
+      cluster_metrics: 
+        port: "8088"
+        path: "/ws/v1/cluster/metrics"
+      application:
+        port: "18080"
+        path: "/api/v1/applications"
